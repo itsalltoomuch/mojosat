@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imvLogo"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/space_small"
+        android:scaleType="centerInside"
+        android:src="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/space_medium"
+        android:text="@string/language" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imvLogo"
+        android:orientation="vertical"
+        android:padding="@dimen/space_large">
+
+        <Button
+
+            android:id="@+id/btnRegisterOwner"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/space_medium"
+            android:layout_weight="1"
+            android:background="@color/main_button"
+            android:text="@string/main_register_owner"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/main_button_text_size"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="148dp" />
+
+        <Button
+            android:id="@+id/btnRegisterSheep"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/space_medium"
+            android:layout_weight="1"
+            android:background="@color/main_button"
+            android:text="@string/main_register_sheep"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/main_button_text_size"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+        <Button
+            android:id="@+id/btnWoolCollection"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/space_medium"
+            android:layout_weight="1"
+            android:background="@color/main_button"
+            android:text="@string/main_wool_collection"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/main_button_text_size"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="148dp" />
+
+        <Button
+            android:id="@+id/btnTrackGoods"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/space_medium"
+            android:layout_weight="1"
+            android:background="@color/main_button_unavailable"
+            android:text="@string/main_track_goods"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/main_button_text_size"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="148dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

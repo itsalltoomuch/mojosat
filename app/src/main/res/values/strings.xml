@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MojoSAT</string>
+    <string name="language">Language</string>
+    <string name="main_register_owner">Register owner</string>
+    <string name="main_register_sheep">Register Sheep</string>
+    <string name="main_wool_collection">Wool Collection</string>
+    <string name="main_track_goods">Track Goods</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comming_soon">This feature is comming soon !</string>
+</resources>
